@@ -54,11 +54,12 @@ sections:
   - block: markdown
     content:
       title: Australians are concerned about diverse risks from AI
-      text: "![Australians are concerned about diverse risks from AI](/figures/SARA_risk_priority.png)"
+    text: "<img src='/figures/SARA_risk_priority.png' alt='SARA Risk Priority' style='display: block; margin-left: auto; margin-right: auto; width: 80%;'/>"
   - block: markdown
     content:
       title: Australians support regulatory and non-regulatory action to address AI risks
-      text: "![Australians support regulatory and non-regulatory action to address risks from AI](/figures/SARA_policy_priority.png)"
+      text: "<img src='/figures/SARA_policy_priority.png' alt='SARA Policy Priority' style='display: block; margin-left: auto; margin-right: auto; width: 80%;'/>"
+
     design:
       columns: '1'
   - block: markdown
