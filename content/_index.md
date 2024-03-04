@@ -60,8 +60,13 @@ sections:
         ![]('figures/SARA_policy_priority.png')
   - block: markdown
     content:
-      title: Ready Research and The University of Queensland collaborated on this 'evidence for action' survey
+      title: About the Survey Assessing Risks from AI
       text: |-
+
+        The development and use of AI technologies is accelerating. Across 2022 and 2023, new large-scale models have been announced monthly, and are achieving increasingly complex and general tasks9; this trend continues in 2024 with Google DeepMind Gemini, OpenAI Sora, and others. Experts in AI forecast that development of powerful AI models could lead to radical changes in wealth, health, and power on a scale comparable to the nuclear and industrial revolutions.
+
+        Addressing the risks and harms from these changes requires effective AI governance: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
+
         Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance. We conducted the *Survey Assessing Risks from AI* (SARA) to generate ‘evidence for action’, to help public and private actors make the decisions needed for safer AI development and use.
         
         This survey investigates public concerns about 14 different risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
