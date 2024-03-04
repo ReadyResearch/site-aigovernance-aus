@@ -11,7 +11,10 @@ sections:
         2024 Australian Survey Assessing AI Risks
       image:
         filename: sara_hero.png
-      text: A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
+      text: |-
+        <br>
+        A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
+        <br>
       cta:
         label: Read a briefing of key results
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
@@ -27,34 +30,34 @@ sections:
     content:
       title: Key Insights
       text: |-
-        - A representative online Survey Assessing AI Risks (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
-        - Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
-        - Australians judge **“preventing dangerous and catastrophic outcomes from AI”** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
-        - The majority of Australians (8 in 10) support the statement that "mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war".
+    
+        A representative online Survey Assessing AI Risks (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
+    
+        Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
+    
+        Australians judge **“preventing dangerous and catastrophic outcomes from AI”** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
+    
+        The majority of Australians (8 in 10) support the statement that "mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war".
     design:
       columns: '2'
   - block: markdown
     content:
       title: Read the briefing
       text: |-
-        # [2024 Survey Assessing AI Risks - Summary Briefing](files/2024 Survey Assessing AI Risks - Summary Briefing.pdf) (PDF)
-        # [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
+        ## [2024 Survey Assessing AI Risks - Summary Briefing]('files/2024 Survey Assessing AI Risks - Summary Briefing.pdf') (PDF)
+        ## [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
     design:
       columns: '2'
   - block: markdown
     content:
       title: Australians are concerned about diverse risks from AI
       text: |-
-        ![](figures/SARA_risk_priority.png)
-    design:
-      columns: '2'
+        ![]('figures/SARA_risk_priority.png')
   - block: markdown
     content:
       title: Australians support regulatory and non-regulatory action to address risks from AI
       text: |-
-        ![](figures/SARA_pol_priority.png)
-    design:
-      columns: '2'
+        ![]('figures/SARA_policy_priority.png')
   - block: markdown
     content:
       title: Ready Research and The University of Queensland collaborated on this 'evidence for action' survey
