@@ -12,8 +12,7 @@ sections:
       image:
         filename: sara_hero.png
       text: |-
-        <br>
-
+       
         A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
     
       cta:
@@ -51,11 +50,11 @@ sections:
     design:
       columns: '2'
  - block: markdown
-    content:
+   content:
       title: Australians are concerned about diverse risks from AI
       text: ![](/static/uploads/SARA_risk_priority.png)
  - block: markdown
-    content:
+   content:
       title: Australians support regulatory and non-regulatory action to address risks from AI
       text: ![](/static/uploads/SARA_pol_priority.png)
   - block: markdown
