@@ -37,7 +37,7 @@ sections:
     content:
       title: Read the briefing
       text: |-
-        # [2024 Survey Assessing AI Risks - Summary Briefing](/static/uploads/2024 Survey Assessing AI Risks - Summary Briefing.pdf) (PDF)
+        # [2024 Survey Assessing AI Risks - Summary Briefing](files/2024 Survey Assessing AI Risks - Summary Briefing.pdf) (PDF)
         # [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
     design:
       columns: '2'
@@ -45,14 +45,14 @@ sections:
     content:
       title: Australians are concerned about diverse risks from AI
       text: |-
-        ![](/static/uploads/SARA_risk_priority.png)
+        ![](figures/SARA_risk_priority.png)
     design:
       columns: '2'
   - block: markdown
     content:
       title: Australians support regulatory and non-regulatory action to address risks from AI
       text: |-
-        ![](/static/uploads/SARA_pol_priority.png)
+        ![](figures/SARA_pol_priority.png)
     design:
       columns: '2'
   - block: markdown
