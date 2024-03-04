@@ -44,7 +44,7 @@ sections:
     content:
       title: Read the briefing
       text: |-
-        ## [2024 Survey Assessing AI Risks - Summary Briefing]('files/2024 Survey Assessing AI Risks - Summary Briefing.pdf') (PDF)
+        ## [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
         ## [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
     design:
       columns: '2'
