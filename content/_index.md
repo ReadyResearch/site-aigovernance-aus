@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2023-09-01
+date: 2024-03-04
 type: landing
 
 sections:
@@ -17,7 +17,7 @@ sections:
         A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
     
       cta:
-        label: Read a briefing
+        label: Read a briefing of key results
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
         icon_pack: fas
         icon: star
@@ -58,7 +58,6 @@ sections:
     content:
       title: Australians support regulatory and non-regulatory action to address risks from AI
       text: ![](/static/uploads/SARA_pol_priority.png)
-
   - block: markdown
     content:
       title: Ready Research and The University of Queensland collaborated on this 'evidence for action' survey
