@@ -15,6 +15,7 @@ sections:
         <br>
         A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
         <br>
+        
       cta:
         label: Read a briefing of key results
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
