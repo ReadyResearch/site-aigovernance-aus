@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: 'AI Safety Australia'
-    description: 'Understand AI risks, take action to improve AI safety, and connect with the AI Safety community in Australia'
+    org_name: 'AI Safety & Governance Australia'
+    description: 'Understand AI risks, take action to improve AI safety and governance, and positively shape the transition towards futures with advanced AI'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Alexander Saeri. Affiliated with [The Good Ancestors Project](https://goodancestors.org.au). This work is licensed under {license}'
+    notice: '© {year} Alexander Saeri & Michael Noetel. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: true
