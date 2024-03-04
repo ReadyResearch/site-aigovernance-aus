@@ -8,72 +8,70 @@ sections:
   - block: hero
     content:
       title: |-
-        AI Safety Fundamentals
+        2024 Australian Survey Assessing AI Risks
       image:
-        filename: aisf_hero.png
+        filename: sara_hero.png
       text: |-
         <br>
 
-        Learn about AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/). Applications close 13 March 2024
-
-        <br>
-
+        A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
+    
       cta:
-        label: Apply now
-        url: 'https://forms.bluedot.org/BSUqN3WHmeL9MbzAj2P6?prefill_Source=landingpage&utm_source=aisafetyorgau'
+        label: Read a briefing
+        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Learn more
-        url: 'https://aisafetyfundamentals.com'
+        label: Full report
+        url: 'mailto:alexander@aksaeri.com?subject=Send+SARA+report'
     design:
       background:
-        color: #004ba0
+        color: #0C869B
   - block: markdown
     content:
-      title: About AI safety   
+      title: Key Insights
       text: |-
     
-        The development and deployment of increasingly capable AI systems involve novel risks and opportunities. Alongside current and pressing risks, there are also potentially catastrophic risks from human misuse of capable AI systems, AI systems acting in ways that are misaligned with human goals, or the intensification of other risks through competition or conflict over AI’s benefits and advantages.
-
-        **AI safety** is an umbrella term for work that tries to understand and address these risks. Although originally focused on technical solutions for catastrophic risks from AI, work in this area now recognises the importance of human decision-making - individually or embedded in organisations and institutions.
-    
-        **AI governance** is an umbrella term for non-technical approaches to improve AI safety: how decisions are made about AI, and what institutions and arrangements help those decisions to be made well. It includes norms, international agreements and treaties, shared beliefs and practices, standards, and ‘ways of doing things’.
-
-        For an introduction to possible catastrophic risks from AI and pathways to safety, read or watch Ben Garfinkel's talk at Effective Altruism Global: London in May 2023: [YouTube recording of _Catastrophic risks from unsafe AI_](https://www.youtube.com/watch?v=h_i2qfVAfus); [Article summary](https://forum.effectivealtruism.org/posts/goYTp3CyLA4dnL2kN/catastrophic-risks-from-unsafe-ai-navigating-a-tightrope).
+        - A representative online Survey Assessing AI Risks (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
+        - Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
+        - Australians judge **“preventing dangerous and catastrophic outcomes from AI”** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
+        - The majority of Australians (8 in 10) support the statement that "mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war".
 
     design:
       columns: '2'
   - block: markdown
     content:
-      title: AI safety in Australia 
+      title: Read the briefing
       text: |-
     
-        in 2023, the most advanced AI systems ("frontier AI") are being developed by companies in the US and UK. However, Australia and Australians have a role to play in safely navigating transitions to a world with advanced AI systems.
+        # [2024 Survey Assessing AI Risks - Summary Briefing](/static/uploads/2024 Survey Assessing AI Risks - Summary Briefing.pdf) (PDF)
 
-        At a minimum, Australian technical, policy and governance talent could be deployed to address global issues (e.g., through research), or directly address issues in jurisdictions where frontier AI is being developed, governed, and regulated (e.g., by working in those jurisdictions).
-
-        However, it's also worthwhile to build an Australian community of people who care about AI risks and work to address them. This is because the most capable systems in 2023 are likely to proliferate globally; policy and governance arrangements must be made for the impacts of AI on Australians, just as they need to be made for other jurisdictions; and Australia as a government and community (of businesses, organisations, civil society, academics, etc) has a role to play in supporting effective international arrangements that will reduce catastrophic risks from AI.
-
-        For information about what Australian governments could do to address AI risks, you can read an [open letter from Australians for AI Safety](https://www.australiansforaisafety.com.au/), or read a detailed [policy submission by Good Ancestors Policy](https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf) (PDF) to the Commonwealth Department of Industry, Science and Resources [consultation on _Safe and Responsible AI_](https://consult.industry.gov.au/supporting-responsible-ai)
+        # [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
 
     design:
       columns: '2'
-  - block: portfolio
-    id: projects
+ - block: markdown
     content:
-      title: Get involved
-      filters:
-        folders:
-          - project
-        exclude_tags: standalone
-      default_button_index: 0
+      title: Australians are concerned about diverse risks from AI
+      text: ![](/static/uploads/SARA_risk_priority.png)
+ - block: markdown
+    content:
+      title: Australians support regulatory and non-regulatory action to address risks from AI
+      text: ![](/static/uploads/SARA_pol_priority.png)
+
+  - block: markdown
+    content:
+      title: Ready Research and The University of Queensland collaborated on this 'evidence for action' survey
+      text: |-
+    
+        Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance. We conducted the *Survey Assessing Risks from AI* (SARA) to generate ‘evidence for action’, to help public and private actors make the decisions needed for safer AI development and use. 
+
+        This survey investigates public concerns about 14 different risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
+
+        We recruited 1,051 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
+    
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      columns: '2'
   - block: contact
     id: contact
     content:
@@ -81,9 +79,7 @@ sections:
       subtitle:
       text: |-
 
-        Contact [Alexander Saeri](alexander@aksaeri.com) for more information on AI governance in Australia. 
-
-        Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
+        Contact [Dr Alexander Saeri](a.saeri@uq.edu.au) to discuss the SARA project and its findings.
     
       # Contact (add or remove contact options as necessary)
       # email: alexander@aksaeri.com
