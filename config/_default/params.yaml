@@ -8,7 +8,7 @@
 appearance:
   theme_day: ocean
   theme_night: minimal
-  font: olive
+  font: sara
   font_size: m
 
 # SEO
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/ReadyResearch/site-aigovernance-aus'
     content_dir: content
     branch: main
   avatar:

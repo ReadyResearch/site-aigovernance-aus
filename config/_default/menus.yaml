@@ -7,9 +7,9 @@ main:
 #  - name: Projects
 #    url: #projects
 #    weight: 10
-  - name: Contact
-    url: #contact
-    weight: 60
+#  - name: Contact
+#    url: #contact
+#    weight: 60
 #  - name: Register for the AI Safety Unconference
 #    url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
 #    weight: 90
