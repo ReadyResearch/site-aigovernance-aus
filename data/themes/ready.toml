@@ -18,12 +18,18 @@ name = "ready"
     home_section_even = "rgb(244, 250, 250)"
 
 [dark]
-    "primary": "#07575B",  # Darker shade of the original primary
-    "primary_light": "#305E63",  # Darker and less saturated
-    "primary_dark": "#022C31",  # Very dark shade for backgrounds or accents
-    "menu_primary": "#07575B",  # Same as primary
-    "menu_text": "#E2F0F2",  # Inverted active text color for readability
-    "menu_text_active": "#0C869B",  # Original primary for highlighted text
-    "menu_title": "#E2F0F2",  # Light color for titles
-    "home_section_odd": "#1B2B2F",  # Dark shade for odd sections
-    "home_section_even": "#22383C",  # Slightly lighter dark shade for even sections
+    # Primary
+    primary = "#07575B"
+    primary_light = "#305E63"
+    primary_dark = "#022C31"
+
+    # Menu
+    menu_primary = "#07575B"
+    menu_text = "#E2F0F2"
+    menu_text_active = "#0C869B"
+    menu_title = "#E2F0F2"
+
+    # Home sections
+    home_section_odd = "#1B2B2F"
+    home_section_even = "#22383C"
+
