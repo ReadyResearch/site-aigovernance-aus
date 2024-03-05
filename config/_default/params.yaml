@@ -6,8 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: ready
-  theme_night: ready
+  theme: ready
   font: sara
   font_size: l
 
