@@ -85,9 +85,6 @@ sections:
 
         This project is a collaboration between Ready Research and The University of Queensland. The project team is Dr Alexander Saeri, Dr Michael Noetel, and Jessica Graham.
 
-        <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; width: 50%' />
-
-
     design:
       columns: '2'
   - block: contact
@@ -96,7 +93,9 @@ sections:
       title: Contact
       subtitle: ''
       text: |-
-        Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the SARA project and its findings.
+        Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.
+
+        <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; margin-left: auto;width: 60%' />
       # appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
       autolink: true
       design:
