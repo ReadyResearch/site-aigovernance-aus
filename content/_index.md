@@ -10,7 +10,7 @@ sections:
       title: |-
         2024 Australian Survey Assessing AI Risks
       image:
-        filename: sara_hero.png
+        filename: sara_hero.webp
       text: |-
         <br>
         
@@ -24,8 +24,8 @@ sections:
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Full report
-        url: 'mailto:alexander@aksaeri.com?subject=Send+SARA+report'
+        label: Register interest for the full report
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSeXrjMnvqTjIMoRQEehNS-cAt3sidBYbKJlmxMqnFXfSEO6ag/viewform?usp=sf_link'
     design:
       background:
         color: #0C869B
@@ -34,7 +34,7 @@ sections:
       title: Key Insights
       text: |-
     
-        A representative online Survey Assessing AI Risks (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
+        A representative online *Survey Assessing AI Risks* (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
     
         Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
     

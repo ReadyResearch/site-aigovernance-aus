@@ -2,7 +2,7 @@
 name = "sara"
 
 # Optional Google font URL
-google_fonts = "Raleway:ital,wght@0,100..900;1,100..900"
+google_fonts = "family=Raleway:ital,wght@0,100..900;1,100..900"
 
 # Font families
 heading_font = "Raleway"

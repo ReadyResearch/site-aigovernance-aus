@@ -31,8 +31,6 @@ social:
 organizations:
   - name: Ready Research
     url: https://www.readyresearch.org
-  - name: BehaviourWorks Australia, Monash University
-    url: https://www.behaviourworksaustralia.org/
 education:
   courses:
     - course: PhD in Social Psychology
