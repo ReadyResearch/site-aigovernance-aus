@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: Ready_Light
-  theme_night: minimal
+  theme_day: ready
+  theme_night: ready
   font: sara
   font_size: l
 
