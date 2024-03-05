@@ -1,0 +1,20 @@
+# Theme metadata
+name = "Ready_Light"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#0C869B"
+primary_light = "#E2F0F2"
+primary_dark = "#053C45"
+
+# Menu
+menu_primary = "#0C869B" # 500
+menu_text = "#fff"
+menu_text_active = "#E2F0F2" # A100
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(244, 250, 250)"

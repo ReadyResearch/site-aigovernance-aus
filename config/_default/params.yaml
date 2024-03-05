@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: ocean
+  theme_day: ready_light
   theme_night: minimal
   font: sara
-  font_size: m
+  font_size: l
 
 # SEO
 
