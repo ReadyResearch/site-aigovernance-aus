@@ -7,9 +7,9 @@
 
 appearance:
   theme_day: ready
-  theme_night: ready
+  # theme_night: ready
   font: sara
-  font_size: l
+  font_size: m
 
 # SEO
 
