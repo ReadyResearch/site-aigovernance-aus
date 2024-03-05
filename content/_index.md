@@ -85,7 +85,7 @@ sections:
       subtitle: ''
       text: |-
         Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the SARA project and its findings.
-      appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
+      # appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
       autolink: true
       design:
         columns: '2'
