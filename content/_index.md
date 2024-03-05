@@ -73,7 +73,7 @@ sections:
 
         Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
 
-        ## About the survey
+        ## We conducted the survey to provide evidence for decision-making
 
         Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance. 
         
@@ -93,7 +93,7 @@ sections:
       title: Contact
       subtitle: ''
       text: |-
-        <p style='text-align:center;>Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.</p>
+        <p style='text-align:center;'>Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.</p>
 
         <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; margin-left: auto;width: 60%' />
       # appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
