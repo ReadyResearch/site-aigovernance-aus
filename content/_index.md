@@ -64,7 +64,7 @@ sections:
       columns: '1'
   - block: markdown
     content:
-      title: About the Survey Assessing Risks from AI
+      title: About the Survey
       text: |-
 
         The development and use of AI technologies is accelerating. Across 2022 and 2023, new large-scale models have been announced monthly, and are achieving increasingly complex and general tasks; this trend continues in 2024 with Google DeepMind Gemini, OpenAI Sora, and others. Experts in AI forecast that development of powerful AI models could lead to radical changes in wealth, health, and power on a scale comparable to the nuclear and industrial revolutions.
@@ -79,7 +79,7 @@ sections:
 
         This project is a collaboration between Ready Research and The University of Queensland.
 
-        "<img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; width: 50%;'/>"
+        <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; width: 50%' />
 
 
     design:
