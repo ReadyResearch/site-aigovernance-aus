@@ -93,7 +93,7 @@ sections:
       title: Contact
       subtitle: ''
       text: |-
-        Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.
+        <p style='text-align:center;>Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.</p>
 
         <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; margin-left: auto;width: 60%' />
       # appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
