@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |-
-        NEW: Survey Assessing Risks from AI
+        New Survey Assessing Risks from AI
       image:
         filename: sara_hero.webp
       text: |-
@@ -19,12 +19,12 @@ sections:
         <br>
                
       cta:
-        label: Read more about the survey
+        label: Learn more
         url: 'survey/'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Read a briefing
+        label: Read briefing
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
     design:
       background:

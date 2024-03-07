@@ -18,14 +18,14 @@ sections:
     
         <br>
                
-      cta:
-        label: Read a briefing
-        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
-        icon_pack: fas
-        icon: star
-      cta_alt:
-        label: Read the technical report
-        url: 'survey/sara_technical_report.html'
+      # cta:
+      #   label: Read a briefing
+      #   url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
+      #   icon_pack: fas
+      #   icon: star
+      # cta_alt:
+      #   label: Read the technical report
+      #   url: 'survey/sara_technical_report.html'
     design:
       background:
         color: #0C869B
