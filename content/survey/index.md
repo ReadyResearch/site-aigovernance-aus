@@ -51,7 +51,7 @@ sections:
         ## [2024 Survey Assessing Risks from AI - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
     design:
       columns: '2'
-       - block: markdown
+  - block: markdown
     content:
       title: Read the technical report
       text: |-
