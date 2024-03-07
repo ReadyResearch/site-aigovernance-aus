@@ -14,7 +14,7 @@ sections:
       text: |-
         <br>
         
-        We conducted a representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia, conducted by Ready Research and The University of Queensland.
+        We conducted a representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
     
         <br>
                
@@ -25,7 +25,7 @@ sections:
         icon: star
       cta_alt:
         label: Read the technical report
-        url: 'survey/SARA Technical Report.html'
+        url: 'survey/sara_technical_report.html'
     design:
       background:
         color: #0C869B
@@ -55,7 +55,7 @@ sections:
     content:
       title: Read the technical report
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Technical Report](<survey/SARA Technical Report.html>) (webpage)
+        ## [2024 Survey Assessing Risks from AI - Technical Report](<survey/sara_technical_report.html>) (webpage)
         ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
 
         **Suggested citation:** *Citation goes here*

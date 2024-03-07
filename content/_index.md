@@ -44,10 +44,16 @@ sections:
       columns: '2'
   - block: markdown
     content:
-      title: International organisations focused on AI governance
+      title: International organisations and projects focused on AI governance
       text: |-
         
-        This will be a list of international organisations working on AI governance.
+        **[Centre for the Governance of AI](https://www.governance.ai/)**: This organisation conducts and convenes research dedicated to helping humanity navigate the transition to a world with advanced AI
+
+        **[BlueDot Impact: AI Safety Fundamentals](https://aisafetyfundamentals.com/)**: This project, *AI Safety Fundamentals* by BlueDot Impact, is a 12 week online course providing foundational knowledge for understanding the challenges of AI, and promising governance approaches to address those challenges.
+      
+        **[The Institute for AI Policy and Strategy](https://www.iaps.ai/)**: this organisation is focused on understanding and managing risks from advanced AI systems, with a focus on AI policy and standards; compute governance; and international governance.
+
+        **[Legal Priorities Project](https://www.legalpriorities.org/)**: This project is focused on researching and advising on the legal and regulatory challenges posed by AI.
 
     design:
       columns: '2'
@@ -56,9 +62,11 @@ sections:
       title: Australian organisations and projects focused on AI governance
       text: |-
         
-        This will be a list of Australian organisations working on AI governance.
+        **[Human Technology Institute](https://www.uts.edu.au/human-technology-institute)**: This institute, based at the University of Technology Sydney, conducts applied research and consulting to support corporate and government decision-making about AI.
 
-        The Human Technology Institute at the University of Technology, Sydney
+        **[Centre for AI and Digital Ethics](https://www.unimelb.edu.au/caide)**: This institute, based at the University of Melbourne, teaches and researches in the area of ethical, technical, regulatory, and legal issues relevant to AI.
+
+        **Gradient Institute**(https://www.gradientinstitute.org/): This Sydney-based independent institute conducts applied research and consulting to improve the safety, ethics, accountability and transparency of AI systems
 
     design:
       columns: '2'
