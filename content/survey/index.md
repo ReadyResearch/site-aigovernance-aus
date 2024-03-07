@@ -10,7 +10,7 @@ sections:
       title: |-
         2024 Australian Survey Assessing Risks from AI
       image:
-        filename: sara_hero.webp
+        filename: sara_hero2.webp
       text: |-
         <br>
         
@@ -25,7 +25,7 @@ sections:
         icon: star
       cta_alt:
         label: Read the technical report
-        url: 'SARA Technical Report.html'
+        url: 'survey/SARA Technical Report.html'
     design:
       background:
         color: #0C869B
@@ -55,7 +55,7 @@ sections:
     content:
       title: Read the technical report
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Technical Report]('survey/SARA Technical Report.html') (webpage)
+        ## [2024 Survey Assessing Risks from AI - Technical Report](<survey/SARA Technical Report.html>) (webpage)
         ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
 
         **Suggested citation:** *Citation goes here*
