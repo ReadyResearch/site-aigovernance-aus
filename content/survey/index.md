@@ -55,7 +55,7 @@ sections:
     content:
       title: Read the technical report
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Technical Report]('SARA Technical Report.html') (webpage)
+        ## [2024 Survey Assessing Risks from AI - Technical Report]('survey/SARA Technical Report.html') (webpage)
         ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
 
         **Suggested citation:** *Citation goes here*
