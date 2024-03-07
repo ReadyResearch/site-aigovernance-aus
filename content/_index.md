@@ -8,23 +8,23 @@ sections:
   - block: hero
     content:
       title: |-
-        2024 Australian Survey Assessing Risks from AI
+        NEW: Survey Assessing Risks from AI
       image:
         filename: sara_hero.webp
       text: |-
         <br>
         
-        A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia, conducted by Ready Research and The University of Queensland.
+        Ready Research/UQ conducted a representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
     
         <br>
                
       cta:
-        label: Read more
+        label: Read more about the survey
         url: 'survey/'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Get the briefing
+        label: Read a briefing
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
     design:
       background:
@@ -38,14 +38,17 @@ sections:
 
         Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
 
+        
+
     design:
       columns: '2'
   - block: markdown
     content:
       title: International organisations focused on AI governance
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
-        ## [2024 Survey Assessing Risks from AI - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
+        
+        This will be a list of international organisations working on AI governance.
+
     design:
       columns: '2'
   - block: markdown
@@ -53,6 +56,8 @@ sections:
       title: Australian organisations and projects focused on AI governance
       text: |-
         
+        This will be a list of Australian organisations working on AI governance.
+
         The Human Technology Institute at the University of Technology, Sydney
 
     design:

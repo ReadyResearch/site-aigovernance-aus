@@ -14,12 +14,12 @@ sections:
       text: |-
         <br>
         
-        A representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia, conducted by Ready Research and The University of Queensland.
+        We conducted a representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia, conducted by Ready Research and The University of Queensland.
     
         <br>
                
       cta:
-        label: Read a briefing of key results
+        label: Read a briefing
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
         icon_pack: fas
         icon: star
@@ -55,8 +55,8 @@ sections:
     content:
       title: Read the technical report
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Technical Report](SARA Technical Report.html) (webpage)
-        ## [2024 Survey Assessing Risks from AI - Technical Report](google.com) (PDF)
+        ## [2024 Survey Assessing Risks from AI - Technical Report]('SARA Technical Report.html') (webpage)
+        ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
 
         **Suggested citation:** *Citation goes here*
     design:
@@ -75,16 +75,8 @@ sections:
       columns: '1'
   - block: markdown
     content:
-      title: Context and motivation
+      title: About the Survey
       text: |-
-
-        ## We need better decision-making about development, deployment and use of AI
-
-        The development and use of AI technologies is accelerating. Across 2022 and 2023, new large-scale models have been announced monthly, and are achieving increasingly complex and general tasks; this trend continues in 2024 with Google DeepMind Gemini, OpenAI Sora, and others. Experts in AI forecast that development of powerful AI models could lead to radical changes in wealth, health, and power on a scale comparable to the nuclear and industrial revolutions.
-
-        Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
-
-        ## We conducted the survey to provide evidence for decision-making
 
         Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance. 
         
@@ -94,7 +86,7 @@ sections:
         
         We recruited 1,051 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
 
-        This project is a collaboration between Ready Research and The University of Queensland. The project team is Dr Alexander Saeri, Dr Michael Noetel, and Jessica Graham.
+        This project is a collaboration between Ready Research and The University of Queensland. The project team is [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), and [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/).
 
     design:
       columns: '2'
