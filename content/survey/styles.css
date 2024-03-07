@@ -1,0 +1,18 @@
+.quarto-title-block .quarto-title-banner {
+    background-image: url(readyuqlogotrans.png), url(banner.png);
+    background-size: 300px, cover; 
+    background-position: right, center; 
+    background-repeat: no-repeat, no-repeat; 
+    padding-right: 30px; 
+    background-origin: content-box, border-box; 
+}
+
+/* Start every section on a new page */
+section {
+  page-break-before: always;
+}
+
+/* Prevent page breaks within a subsection */
+.subsection {
+  page-break-inside: avoid;
+}
