@@ -3,10 +3,10 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-# main:
-#  - name: Projects
-#    url: #projects
-#    weight: 10
+main:
+ - name: Survey Assessing Risks from AI
+   url: survey/
+   weight: 10
 #  - name: Contact
 #    url: #contact
 #    weight: 60

@@ -19,82 +19,54 @@ sections:
         <br>
                
       cta:
-        label: Read a briefing of key results
-        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
+        label: Read more
+        url: 'survey/'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Register interest for the full report
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSeXrjMnvqTjIMoRQEehNS-cAt3sidBYbKJlmxMqnFXfSEO6ag/viewform?usp=sf_link'
+        label: Get the briefing
+        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
     design:
       background:
         color: #0C869B
   - block: markdown
     content:
-      title: Key Insights
+      title: AI Governance in Australia
       text: |-
     
-        A representative online *Survey Assessing AI Risks* (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
-    
-        Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
-    
-        Australians judge **“preventing dangerous and catastrophic outcomes from AI”** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
-    
-        The majority of Australians (8 in 10) support the statement that "mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war".
-    design:
-      columns: '2'
-  - block: markdown
-    content:
-      title: Read the briefing
-      text: |-
-        ## [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
-        ## [2024 Survey Assessing AI Risks - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
-    design:
-      columns: '2'
-  - block: markdown
-    content:
-      title: Australians are concerned about diverse risks from AI
-      text: "<img src='/figures/SARA_risk_priority.png' alt='SARA Risk Priority' style='display: block; margin-left: auto; margin-right: auto; width: 80%;'/>"
-  - block: markdown
-    content:
-      title: Australians support regulatory and non-regulatory action to address AI risks
-      text: "<img src='/figures/SARA_policy_priority.png' alt='SARA Policy Priority' style='display: block; margin-left: auto; margin-right: auto; width: 80%;'/>"
-
-    design:
-      columns: '1'
-  - block: markdown
-    content:
-      title: Context and motivation
-      text: |-
-
-        ## We need better decision-making about development, deployment and use of AI
-
         The development and use of AI technologies is accelerating. Across 2022 and 2023, new large-scale models have been announced monthly, and are achieving increasingly complex and general tasks; this trend continues in 2024 with Google DeepMind Gemini, OpenAI Sora, and others. Experts in AI forecast that development of powerful AI models could lead to radical changes in wealth, health, and power on a scale comparable to the nuclear and industrial revolutions.
 
         Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
 
-        ## We conducted the survey to provide evidence for decision-making
-
-        Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance. 
+    design:
+      columns: '2'
+  - block: markdown
+    content:
+      title: International organisations focused on AI governance
+      text: |-
+        ## [2024 Survey Assessing Risks from AI - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
+        ## [2024 Survey Assessing Risks from AI - Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
+    design:
+      columns: '2'
+  - block: markdown
+    content:
+      title: Australian organisations and projects focused on AI governance
+      text: |-
         
-        We conducted the *Survey Assessing Risks from AI* (SARA) to generate ‘evidence for action’, to help public and private actors make the decisions needed for safer AI development and use.
-
-        This survey investigates public concerns about 14 different risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
-        
-        We recruited 1,051 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
-
-        This project is a collaboration between Ready Research and The University of Queensland. The project team is Dr Alexander Saeri, Dr Michael Noetel, and Jessica Graham.
+        The Human Technology Institute at the University of Technology, Sydney
 
     design:
       columns: '2'
+
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle: ''
       text: |-
-        Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project and its findings.
+        This website is a joint initiative of [Ready Research](https://www.readyresearch.org) and researchers at The University of Queensland.
         
+        Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au)
         <br>
         <br>
         <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; margin-left: auto;width: 60%' />

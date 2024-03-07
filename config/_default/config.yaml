@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Survey Assessing Risks from AI # Website name
+title:  AI Governance in Australia # Website name
 baseURL: 'https://www.aigovernance.org.au/' # Website URL
 
 ############################
