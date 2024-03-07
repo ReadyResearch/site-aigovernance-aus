@@ -36,9 +36,7 @@ sections:
     
         The development and use of AI technologies is accelerating. Across 2022 and 2023, new large-scale models have been announced monthly, and are achieving increasingly complex and general tasks; this trend continues in 2024 with Google DeepMind Gemini, OpenAI Sora, and others. Experts in AI forecast that development of powerful AI models could lead to radical changes in wealth, health, and power on a scale comparable to the nuclear and industrial revolutions.
 
-        Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.
-
-        
+        Addressing the risks and harms from these changes requires effective *AI governance*: forming robust norms, policies, laws, processes and institutions to guide good decision-making about AI development, deployment and use. Effective governance is especially crucial for managing extreme or catastrophic risks from AI that are high impact and uncertain, such as harm from misuse, accident or loss of control.      
 
     design:
       columns: '2'
@@ -66,7 +64,7 @@ sections:
 
         **[Centre for AI and Digital Ethics](https://www.unimelb.edu.au/caide)**: This institute, based at the University of Melbourne, teaches and researches in the area of ethical, technical, regulatory, and legal issues relevant to AI.
 
-        **Gradient Institute**(https://www.gradientinstitute.org/): This Sydney-based independent institute conducts applied research and consulting to improve the safety, ethics, accountability and transparency of AI systems
+        **[Gradient Institute](https://www.gradientinstitute.org/)**: This Sydney-based independent institute conducts applied research and consulting to improve the safety, ethics, accountability and transparency of AI systems
 
     design:
       columns: '2'
