@@ -19,12 +19,12 @@ sections:
         <br>
                
       cta:
-        label: Read Survey Briefing
+        label: Read Briefing
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Read Survey Technical Report
+        label: Read Technical Report
         url: 'survey/sara_technical_report.html'
     design:
       background:
@@ -58,8 +58,9 @@ sections:
         
         ## [2024 Survey Assessing Risks from AI - Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (PDF)
         ## [2024 Survey Assessing Risks from AI - Technical Report](<sara_technical_report.html>) (webpage)
-        
+
         <br>
+
         **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
       columns: '2'
