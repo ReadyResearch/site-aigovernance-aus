@@ -84,7 +84,7 @@ sections:
 
         This survey investigates public concerns about 14 different risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
         
-        We recruited 1,051 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
+        We recruited 1,141 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
 
         This project is a collaboration between Ready Research and The University of Queensland. The project team is [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), and [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/).
 
