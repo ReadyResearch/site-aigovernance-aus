@@ -55,10 +55,10 @@ sections:
     content:
       title: Read the technical report
       text: |-
-        ## [2024 Survey Assessing Risks from AI - Technical Report](<survey/sara_technical_report.html>) (webpage)
+        ## [2024 Survey Assessing Risks from AI - Technical Report](<sara_technical_report.html>) (webpage)
         ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
 
-        **Suggested citation:** *Citation goes here*
+        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
       columns: '2'
 
