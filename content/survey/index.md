@@ -18,14 +18,14 @@ sections:
     
         <br>
                
-      # cta:
-      #   label: Read a briefing
-      #   url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
-      #   icon_pack: fas
-      #   icon: star
-      # cta_alt:
-      #   label: Read the technical report
-      #   url: 'survey/sara_technical_report.html'
+      cta:
+        label: Briefing
+        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
+        icon_pack: fas
+        icon: star
+      cta_alt:
+        label: Technical report
+        url: 'sara_technical_report.html'
     design:
       background:
         color: #0C869B
@@ -34,7 +34,7 @@ sections:
       title: Key Insights
       text: |-
     
-        A representative online *Survey Assessing Risks from AI* (SARA) of 1,051 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
+        A representative online *Survey Assessing Risks from AI* (SARA) of 1,141 Australians in January-February 2024 investigated public perceptions of AI risks and support for AI governance actions.
     
         Australians are **most concerned about AI risks where AI acts unsafely** (e.g., acting in conflict with human values, failure of critical infrastructure), **is misused** (e.g., cyber attacks, biological weapons), or **displaces the jobs of humans**; they are least concerned about AI-assisted surveillance, or bias and discrimination in AI decision-making.
     
@@ -56,7 +56,7 @@ sections:
       title: Read the technical report
       text: |-
         ## [2024 Survey Assessing Risks from AI - Technical Report](<sara_technical_report.html>) (webpage)
-        ## [2024 Survey Assessing Risks from AI - Technical Report](https://google.com) (PDF)
+        ## [2024 Survey Assessing Risks from AI - Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (PDF)
 
         **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
