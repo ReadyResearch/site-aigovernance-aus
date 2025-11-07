@@ -1,0 +1,75 @@
+# Modern AI Safety Australia Theme
+name = "AI Safety Modern"
+
+# Light mode theme
+[light]
+# Primary brand colors - modern blue gradient palette
+primary = "#2563eb"        # Modern blue
+secondary = "#1e40af"      # Deeper blue
+success = "#10b981"        # Modern green
+info = "#06b6d4"          # Cyan
+warning = "#f59e0b"       # Amber
+danger = "#ef4444"        # Modern red
+
+# Background colors
+background = "#ffffff"
+home_section_odd = "#f8fafc"    # Very light blue-gray
+home_section_even = "#ffffff"
+
+# Text colors
+text = "#1e293b"           # Dark slate
+text_light = "#64748b"     # Medium slate
+text_strong = "#0f172a"    # Very dark slate
+
+# Link colors
+link = "#2563eb"           # Primary blue
+link_hover = "#1d4ed8"     # Darker blue on hover
+
+# Menu colors
+menu_primary = "#ffffff"
+menu_text = "#1e293b"
+menu_text_active = "#2563eb"
+menu_title = "#1e293b"
+
+# Navigation colors
+navbar_light = "#ffffff"
+navbar_dark = "#1e293b"
+
+# Page header
+page_header = "#f1f5f9"    # Light slate background
+
+# Dark mode theme
+[dark]
+primary = "#3b82f6"           # Lighter blue for dark mode
+secondary = "#60a5fa"         # Even lighter blue
+success = "#34d399"           # Lighter green
+info = "#22d3ee"             # Lighter cyan
+warning = "#fbbf24"          # Lighter amber
+danger = "#f87171"           # Lighter red
+
+# Dark background colors
+background = "#0f172a"        # Very dark slate
+home_section_odd = "#1e293b"  # Dark slate
+home_section_even = "#111827" # Slightly lighter dark
+
+# Dark text colors
+text = "#f1f5f9"             # Light slate
+text_light = "#94a3b8"       # Medium slate
+text_strong = "#ffffff"      # Pure white
+
+# Dark link colors
+link = "#60a5fa"             # Lighter blue
+link_hover = "#93c5fd"       # Even lighter blue on hover
+
+# Dark menu colors
+menu_primary = "#1e293b"     # Dark slate
+menu_text = "#f1f5f9"        # Light text
+menu_text_active = "#60a5fa" # Light blue active
+menu_title = "#ffffff"       # White title
+
+# Dark navigation colors
+navbar_light = "#1e293b"     # Dark navbar for dark mode
+navbar_dark = "#0f172a"      # Even darker navbar
+
+# Dark page header
+page_header = "#1e293b"      # Dark slate background

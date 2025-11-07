@@ -3,8 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title:  AI Governance in Australia # Website name
-baseURL: 'https://www.aigovernance.org.au/' # Website URL
+title: 'SARA - Survey Assessing Risks from AI'
+ # Website name
+baseURL: 'https://www.aisafety.org.au/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -70,3 +71,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+params:
+  topic: "safety"
