@@ -1,0 +1,8 @@
+Response,Percentage (%),Lower CI (%),Upper CI (%)
+Not worth paying,21.7,18.2,26.1
+$1-25,23.2,20.3,26.2
+$26-100,17.2,14.9,19.7
+$101-500,9,7.2,10.9
+$501-1000,2,1.2,3
+More than $1000,2.8,1.8,3.9
+Cannot put price,24.2,20,28

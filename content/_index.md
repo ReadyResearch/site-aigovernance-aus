@@ -23,9 +23,6 @@ sections:
         url: 'survey/'
         icon_pack: fas
         icon: star
-      cta_alt:
-        label: Read briefing
-        url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
     design:
       background:
         color: #0C869B
@@ -63,6 +60,8 @@ sections:
         **[Human Technology Institute](https://www.uts.edu.au/human-technology-institute)**: This institute, based at the University of Technology Sydney, conducts applied research and consulting to support corporate and government decision-making about AI.
 
         **[Centre for AI and Digital Ethics](https://www.unimelb.edu.au/caide)**: This institute, based at the University of Melbourne, teaches and researches in the area of ethical, technical, regulatory, and legal issues relevant to AI.
+
+        **[Good Ancestors Policy](https://www.goodancestors.org.au/ai-safety)**: This independent charity conducts policy advocacy and research focused on AI safety and governance, making submissions to government inquiries and developing policy proposals to ensure advanced AI systems are well-governed and safe.
 
         **[Gradient Institute](https://www.gradientinstitute.org/)**: This Sydney-based independent institute conducts applied research and consulting to improve the safety, ethics, accountability and transparency of AI systems
 
