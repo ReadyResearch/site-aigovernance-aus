@@ -50,6 +50,35 @@ sections:
     design:
       columns: '2'
 
+  - block: markdown
+    content:
+      title: AI Governance
+      text: |-
+        **AI governance** encompasses the norms, policies, laws, processes, and institutions that guide responsible decision-making about AI development, deployment, and use. Effective governance is crucial for managing both current harms and potential catastrophic risks from AI, including risks from misuse, accidents, or loss of control.
+
+        ### Australian Organizations
+
+        **[Good Ancestors Policy](https://goodancestors.org.au)** — A policy advocacy organisation focused on AI safety and governance to ensure beneficial outcomes for future generations.
+
+        **[Tech Policy Design Institute](https://techpolicy.au)** — An independent Australian institute conducting research and advocacy on technology policy, including AI governance.
+
+        **[Human Technology Institute](https://www.uts.edu.au/hti)** — Based at the University of Technology Sydney, this institute conducts applied research and consulting to support corporate and government decision-making about AI.
+
+        **[Centre for AI and Digital Ethics](https://law.unimelb.edu.au/centres/caide)** — Based at the University of Melbourne, this centre researches ethical, technical, regulatory, and legal issues relevant to AI.
+
+        **[Gradient Institute](https://gradientinstitute.org)** — A Sydney-based independent institute conducting applied research and consulting to improve the safety, ethics, accountability, and transparency of AI systems.
+
+        ### International Organizations
+
+        **[Centre for the Governance of AI](https://www.governance.ai)** — This organization conducts and convenes research dedicated to helping humanity navigate the transition to a world with advanced AI.
+
+        **[BlueDot Impact](https://bluedot.org)** — Offers cohort-based courses including AI Governance, covering the policy landscape, regulatory tools, and institutional reforms needed for beneficial AI outcomes.
+
+        **[The Institute for AI Policy and Strategy](https://www.iaps.ai)** — This organization focuses on understanding and managing risks from advanced AI systems, with emphasis on AI policy and standards, compute governance, and international governance.
+
+    design:
+      columns: '2'
+
   - block: contact
     id: contact
     content:
