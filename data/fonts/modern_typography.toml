@@ -1,0 +1,11 @@
+# Modern Typography for AI Safety Australia
+name = "modern_typography"
+
+# Google Fonts - Inter for modern feel, JetBrains Mono for code
+google_fonts = "family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;500;600"
+
+# Font assignments
+heading_font = "Playfair Display"    # Elegant serif for headings
+body_font = "Inter"                  # Modern sans-serif for body
+nav_font = "Inter"                   # Consistent navigation
+mono_font = "JetBrains Mono"         # Modern monospace

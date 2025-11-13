@@ -4,146 +4,230 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Hugo-based static website for AI Governance in Australia (aigovernance.org.au), built using the Wowchemy Research Group template. The site showcases research on the SARA (Survey Assessing Risks from AI) project and provides information about AI governance relevant to Australia.
+This is the **SARA (Survey Assessing Risks from AI)** website built with Hugo (v0.97.3) using the Wowchemy Research Group template. The site is dedicated exclusively to publishing results from the annual SARA survey.
+
+SARA investigates Australian public perceptions of AI risks and support for AI governance actions. The site currently hosts the 2024 survey results and has a template ready for the 2025 survey.
+
+**Site Title:** "SARA - Survey Assessing Risks from AI"
+**Domain:** https://www.aisafety.org.au/
 
 ## Development Commands
 
-### Local Development
+### Running the Development Server
 ```bash
-# Start Hugo development server with drafts
-hugo server -D
+hugo server --buildDrafts --buildFuture --bind 0.0.0.0 --port 1313
+```
+**IMPORTANT**: Always run the Hugo server in a background process using the `run_in_background` parameter in the Bash tool.
 
-# Start server with future-dated content
-hugo server --buildFuture
-
-# Build for production (same as Netlify)
-hugo --gc --minify -b https://www.aigovernance.org.au/
+**Verify server is running:**
+```bash
+ps aux | grep hugo
 ```
 
-### Dependency Management
+**Server will be available at:** http://localhost:1313
+
+### Building the Site
 ```bash
-# Update Hugo modules (Wowchemy theme)
+# Local build
+hugo
+
+# Production build (matches Netlify)
+hugo --gc --minify -b https://www.aisafety.org.au/
+```
+
+### Hugo Module Management
+```bash
+# Update Hugo modules
 hugo mod get -u
 
-# Clean module cache if needed
+# Clean module cache
 hugo mod clean
 
-# Verify module dependencies
-hugo mod graph
+# Download/verify modules
+hugo mod vendor
 ```
 
-### Building
-```bash
-# Production build (outputs to public/)
-hugo --gc --minify
+## Site Structure
 
-# Build with future-dated posts
-hugo --gc --minify --buildFuture
+### Current Pages
+```
+/                    # Homepage - landing page with links to both surveys
+/survey/2025/        # 2025 survey (template with TODO placeholders)
+/survey/2024/        # 2024 survey (complete archive)
 ```
 
-**Note:** Hugo v0.97.3 is required (specified in netlify.toml). The build output goes to `public/` which is gitignored.
-
-## Architecture
-
-### Hugo Module System
-This project uses Go modules for dependency management instead of traditional Git submodules. Three Wowchemy modules are imported:
-- `wowchemy-plugin-netlify` - Netlify integration
-- `wowchemy-plugin-netlify-cms` - CMS support
-- `wowchemy/v5` v5.7.1 - Core theme framework
-
-### Content Architecture
-Content uses Wowchemy's **block-based page builder**. Pages are composed by defining sections in YAML frontmatter:
-
-```yaml
-type: landing
-sections:
-  - block: hero
-    content:
-      title: "Title"
-      text: "Content"
-  - block: markdown
-    content:
-      text: |
-        Markdown content here
+### Content Organization
+```
+content/
+├── _index.md                      # Homepage (landing page)
+└── survey/
+    ├── 2024/                      # Archived 2024 survey
+    │   ├── index.md               # Survey landing page
+    │   ├── sara_technical_report.html
+    │   ├── sara_technical_report_files/
+    │   ├── report_technical/
+    │   ├── banner.png
+    │   ├── readyuqlogotrans.png
+    │   └── styles.css
+    └── 2025/                      # Template for 2025 survey
+        └── index.md               # Template with TODO markers
 ```
 
-Available block types: `hero`, `markdown`, `contact`, `people`, `collection` (for publications/posts).
+### Homepage Structure (`content/_index.md`)
+Simple landing page with three sections:
+1. **Hero Section**:
+   - Title: "Survey Assessing Risks from AI"
+   - Background: Sydney Opera House with crowd (dominic-kurniawan-suryaputra-8bA_OXkFq2s-unsplash.jpg)
+   - CTAs: "View 2025 Survey" and "View 2024 Results"
+2. **About SARA**: Brief description of the annual survey
+3. **Contact**: Contact information and org logos
 
-### Directory Structure
-- **config/_default/**: Hugo configuration files (config.yaml, params.yaml, menus.yaml, languages.yaml)
-- **content/**: All page content as Markdown with YAML frontmatter
-  - `_index.md` - Homepage with landing sections
-  - `survey/` - SARA survey content and technical reports
-  - `authors/admin/` - Author profiles
-- **data/**: Theme and font configurations (themes/ready.toml, fonts/sara.toml)
-- **assets/**: Build-time processed files
-  - `scss/template.scss` - Custom styles (centers headers and CTA buttons)
-  - `media/` - Site icons and hero images
-- **static/**: Direct-serve static files
-  - `figures/` - Survey charts/visualizations
-  - `files/` - Downloadable PDFs
+### Survey Page Structure
+Each survey year (`/survey/YYYY/index.md`) contains:
+- Hero section with survey year and description
+- Key insights section with findings
+- Links to briefing (PDF & Google Doc)
+- Links to technical report (SSRN & local HTML)
+- Figures/visualizations
+- About the survey section
+- Contact section
 
-### Custom Theme: "ready"
-The site uses a custom theme with teal/cyan color scheme defined in [data/themes/ready.toml](data/themes/ready.toml):
-- Primary: #0C869B
-- Primary Light: #E2F0F2
-- Primary Dark: #053C45
+## Theming & Design
 
-Custom font "sara" uses Raleway family from Google Fonts ([data/fonts/sara.toml](data/fonts/sara.toml)).
+### Theme Configuration
+- **Theme**: Custom `ai_safety_modern` theme defined in `data/themes/ai_safety_modern.toml`
+  - Modern blue gradient color palette
+  - Separate light/dark mode configurations
+- **Typography**: `modern_typography` font configuration in `data/fonts/`
+- **Custom Styles**: `assets/scss/template.scss`
 
-## Configuration Files
+### Hero Background Image
+- **Current Image**: Sydney Opera House with crowd
+- **File**: `assets/media/dominic-kurniawan-suryaputra-8bA_OXkFq2s-unsplash.jpg`
+- **Positioning**: Responsive positioning to emphasize crowd over sky
+  - Mobile (default): `center 45%`
+  - Desktop (768px+): `center 58%`
+  - Large screens (1440px+): `center 60%`
+- **Brightness Filter**: `0.5` (50% to ensure text readability)
 
-### Key Settings
-- **Site title**: "AI Governance in Australia" ([config/_default/config.yaml](config/_default/config.yaml):6)
-- **Base URL**: https://www.aigovernance.org.au/ ([config/_default/config.yaml](config/_default/config.yaml):7)
-- **Repository**: https://github.com/ReadyResearch/site-aigovernance-aus ([config/_default/params.yaml](config/_default/params.yaml):75)
-- **Search**: Wowchemy built-in search provider ([config/_default/params.yaml](config/_default/params.yaml):94)
-- **Citation style**: APA ([config/_default/params.yaml](config/_default/params.yaml):118)
+### Important CSS Notes
 
-### Taxonomies
-Configured for academic content: `tags`, `categories`, `publication_types`, `authors` ([config/_default/config.yaml](config/_default/config.yaml):53-57)
+**Background Image Positioning:**
+The background uses responsive positioning in `assets/scss/template.scss` to show more of the Opera House and crowd, less sky:
+```scss
+.home-section-bg.bg-image {
+  background-position: center 45% !important; /* Mobile */
+}
+@media (min-width: 768px) {
+  .home-section-bg.bg-image {
+    background-position: center 58% !important; /* Desktop */
+  }
+}
+```
 
-### Ignored Files
-Hugo ignores: `.ipynb`, `.ipynb_checkpoints`, `.Rmd`, `.Rmarkdown`, `_cache` ([config/_default/config.yaml](config/_default/config.yaml):38)
+**Strong Tag Styling:**
+Avoid using `display: block` on `<strong>` tags as it creates unwanted line breaks. Keep inline:
+```scss
+/* DON'T do this */
+.home-section p strong {
+  display: block;  /* ❌ Creates line breaks */
+}
+
+/* DO this instead */
+.home-section p strong {
+  font-weight: 600;  /* ✅ Stays inline */
+}
+```
+
+### Configuration Files
+Split configuration in `config/_default/`:
+- `config.yaml`: Core Hugo settings, modules, taxonomies, site title
+- `params.yaml`: Appearance, SEO, header/footer, branding
+- `menus.yaml`: Navigation structure (currently minimal)
+- `languages.yaml`: Language configuration
+
+### Hugo Modules
+Uses Wowchemy Hugo modules:
+- `wowchemy-plugin-netlify-cms`: CMS integration
+- `wowchemy-plugin-netlify`: Netlify-specific features
+- `wowchemy/v5`: Core Wowchemy theme framework
+
+## Adding SARA 2025 Survey Results
+
+When 2025 survey data is ready, update `content/survey/2025/index.md`:
+
+1. **Update Survey Details**:
+   - Replace "We are conducting" with "We conducted"
+   - Add actual survey dates in Key Insights
+   - Add sample size (e.g., "1,141 Australians")
+
+2. **Add Key Findings**:
+   - Replace TODO placeholders with actual findings
+   - Follow the format from 2024 survey
+
+3. **Upload Reports**:
+   - Create Google Doc briefing and add link
+   - Create PDF export link
+   - Upload technical report HTML: `sara_2025_technical_report.html`
+   - Create supporting files directory: `sara_2025_technical_report_files/`
+   - Publish to SSRN and add DOI link
+
+4. **Add Figures**:
+   - Upload figures to `static/figures/` (e.g., `SARA_2025_risk_priority.png`)
+   - Embed in markdown using HTML img tags:
+     ```html
+     <img src='/figures/SARA_2025_figure.png' alt='Description'
+          style='display: block; margin-left: auto; margin-right: auto; width: 80%;'/>
+     ```
+
+5. **Update Citation**:
+   - Change year from 2024 to 2025
+   - Update any author information if needed
+
+## CSS Debugging
+
+**Wowchemy CSS Architecture:**
+- CSS compiled into `/public/css/wowchemy.css` (not in repo)
+- Uses Hugo modules from GitHub
+- Often requires `!important` to override defaults
+
+**Debug CSS Issues:**
+1. Inspect live HTML: `curl -s "http://localhost:1313" | grep -A20 "wg-hero"`
+2. Find actual classes used (e.g., `.wg-hero`, `.home-section-bg.bg-image`)
+3. Check compiled CSS: `grep -n "\.wg-hero" public/css/wowchemy.css`
+4. Override with exact classes + `!important`
+
+**Key Wowchemy Classes:**
+- `.wg-hero` - Hero section container
+- `.home-section-bg.bg-image` - Background image
+- `.home-section` - Content sections
+- `[data-theme="dark"]` - Dark mode
+
+## Asset Management
+
+**Images:**
+- Homepage background: `assets/media/dominic-kurniawan-suryaputra-8bA_OXkFq2s-unsplash.jpg`
+- Survey banner: `content/survey/YYYY/banner.png` or use `sara_hero2.webp`
+- Survey figures: `static/figures/`
+- Organization logos: `static/` (e.g., `readyuqlogo.png`)
+
+**Embed Methods:**
+- Direct HTML img tags for precise control
+- Hugo shortcodes for processed assets: `{{< figure src="file.jpg" >}}`
+- YouTube: Use HTML iframe (more reliable than Hugo shortcode)
 
 ## Deployment
 
-Automatic deployment via Netlify on push to main branch. Build command:
-```bash
-hugo --gc --minify -b $URL
-```
+**Platform:** Netlify
+- Hugo version: 0.97.3 (locked in netlify.toml)
+- Build command: `hugo --gc --minify -b $URL`
+- Publish directory: `public`
+- Auto-deploys from main branch
 
-### Netlify Redirects
-Permanent redirect configured: `/fundamentals-eoi` → Google Form ([netlify.toml](netlify.toml):23-27)
+## Google Search Console
 
-### Context-Specific Builds
-- **Production**: `HUGO_ENV=production`
-- **Deploy previews**: Includes `--buildFuture` flag
-- Uses `netlify-plugin-hugo-cache-resources` for faster rebuilds
-
-## Content Management
-
-### Adding New Pages
-1. Create `index.md` in appropriate content directory
-2. Use `type: landing` for block-based pages
-3. Define sections in frontmatter with block types
-4. Add menu items in [config/_default/menus.yaml](config/_default/menus.yaml)
-
-### Adding Static Files
-- **PDFs/downloads**: Place in `static/files/`
-- **Images**: Place in `static/figures/` or `assets/media/`
-- **Reports**: Place in `content/survey/` for survey-related content
-
-### Editing Theme Colors
-Modify [data/themes/ready.toml](data/themes/ready.toml) for color scheme changes. Both light and dark modes are defined.
-
-### Custom Styling
-Add SCSS to [assets/scss/template.scss](assets/scss/template.scss). Currently centers page headers and CTA buttons.
-
-## Important Notes
-
-- This site focuses on minimal custom code, leveraging Wowchemy's extensive features
-- Content authors can edit Markdown files without deep technical knowledge
-- The site is optimized for academic/research content with publication support
-- No custom JavaScript - all functionality from Wowchemy theme
-- Repository size: ~96 MB (includes images, PDFs, technical reports)
+Google Search Console is activated. Check periodically for:
+- Indexing status
+- Search performance
+- Mobile usability
+- Technical issues
