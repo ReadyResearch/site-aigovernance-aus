@@ -18,13 +18,13 @@ sections:
         <br>
 
       cta:
-        label: Get notified about 2025 results
-        url: 'mailto:m.noetel@uq.edu.au?subject=Notify%20me%20when%20SARA%202025%20is%20released'
+        label: View 2025 Results
+        url: '/survey/2025/sara_2025_technical_report.html'
         icon_pack: fas
-        icon: envelope
+        icon: star
       cta_alt:
         label: View 2024 Results
-        url: '/survey/2024/'
+        url: '/survey/2024/sara_technical_report.html'
     design:
       background:
         image:
@@ -65,8 +65,6 @@ sections:
         **[Human Technology Institute](https://www.uts.edu.au/hti)** — Based at the University of Technology Sydney, this institute conducts applied research and consulting to support corporate and government decision-making about AI.
 
         **[Centre for AI and Digital Ethics](https://law.unimelb.edu.au/centres/caide)** — Based at the University of Melbourne, this centre researches ethical, technical, regulatory, and legal issues relevant to AI.
-
-        **[Good Ancestors Policy](https://www.goodancestors.org.au/ai-safety)**: This independent charity conducts policy advocacy and research focused on AI safety and governance, making submissions to government inquiries and developing policy proposals to ensure advanced AI systems are well-governed and safe.
 
         **[Gradient Institute](https://gradientinstitute.org)** — A Sydney-based independent institute conducting applied research and consulting to improve the safety, ethics, accountability, and transparency of AI systems.
 

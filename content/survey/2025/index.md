@@ -13,18 +13,18 @@ sections:
       text: |-
         <br>
 
-        We are conducting a representative survey of Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
+        We conducted a representative survey of 933 Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
 
         <br>
 
       cta:
-        label: Read Briefing
-        url: '#'  # TODO: Update when 2025 briefing is available
+        label: 2025 Report
+        url: '/survey/2025/sara_2025_technical_report.html'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Read Technical Report
-        url: '#'  # TODO: Update when 2025 technical report is available
+        label: 2024 Report
+        url: '/survey/2024/sara_technical_report.html'
     design:
       background:
         color: #0C869B
@@ -34,37 +34,31 @@ sections:
       title: Key Insights
       text: |-
 
-        Survey results for 2025 will be published here.
+        Our representative online *Survey Assessing Risks from AI* (SARA) has investigated public perceptions of AI risks and support for AI governance actions across multiple years:
 
-        *Data collection: [TODO: Add dates]*
+        **2025 Survey** (933 Australians): Australians expect AI to be as safe as commercial aviation - at least **4,000x** safer than current risk estimates. They want the government to better manage AI risks, and many risk controls would increase their trust in AI.
 
-        *Sample size: [TODO: Add sample size]*
-
-        *Key findings will be added here once analysis is complete.*
+        **2024 Survey** (1,141 Australians; [2-page briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false)): Australians are most concerned about AI risks where AI acts unsafely, is misused, or displaces jobs. They judge **"preventing dangerous and catastrophic outcomes from AI"** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
     design:
       columns: '2'
 
   - block: markdown
     content:
-      title: Read the briefing
+      title: Read the reports
       text: |-
-        ## 2025 Survey Assessing Risks from AI - Summary Briefing
+        ### 2025 Survey
+        - [2025 Technical Report](/survey/2025/sara_2025_technical_report.html) (interactive report)
+        - [2025 Technical Report](/survey/2025/sara_2025_technical_report_final.pdf) (PDF)
 
-        *Coming soon*
-    design:
-      columns: '2'
+        **Suggested citation:** Noetel, M., Saeri, A.K., Graham, J., & Slattery, P. (2025). *Survey Assessing Risks from Artificial Intelligence: 2025 Technical Report*. Ready Research, The University of Queensland.
 
-  - block: markdown
-    content:
-      title: Read the technical report
-      text: |-
-        ## 2025 Survey Assessing Risks from AI - Technical Report
+        ### 2024 Survey
+        - [2024 Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
+        - [2024 Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
+        - [2024 Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (SSRN PDF)
+        - [2024 Technical Report](/survey/2024/sara_technical_report.html) (interactive report)
 
-        *Coming soon*
-
-        <br>
-
-        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2025). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
+        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
       columns: '2'
 
@@ -77,11 +71,13 @@ sections:
 
         The *Survey Assessing Risks from AI* (SARA) generates 'evidence for action', to help public and private actors make the decisions needed for safer AI development and use.
 
-        This survey investigates public concerns about different risks from AI, public support for AI development and regulation, and priority governance actions to address risks from AI (with a focus on government action).
+        Our surveys investigate public concerns about diverse risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
 
-        We recruit a representative sample of Australians through online quota sampling stratified by age, sex, and Australian state / territory. We conduct multilevel regression with poststratification to construct more accurate population estimates based on Australian Census data.
+        **2025 Survey:** We recruited 933 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory.
 
-        This project is a collaboration between Ready Research and The University of Queensland. The project team is [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), and [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/).
+        **2024 Survey:** We recruited 1,141 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
+
+        This project is a collaboration between Ready Research and The University of Queensland. The project team includes [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/), and [Dr Peter Slattery](https://www.linkedin.com/in/peterslattery1/).
 
     design:
       columns: '2'
