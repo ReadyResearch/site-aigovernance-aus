@@ -574,3 +574,35 @@ html {
   background: #111827 !important;
 }
 
+/* ==========================================================================
+   Accessibility: Respect User Motion Preferences
+   ========================================================================== */
+
+/* Reduce motion for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  .home-section {
+    animation: none !important;
+  }
+
+  .card,
+  .isotope-item .card,
+  .btn,
+  .nav-link,
+  .learning-resource-card {
+    transition: none !important;
+  }
+}
+

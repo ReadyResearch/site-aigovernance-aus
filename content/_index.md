@@ -18,13 +18,13 @@ sections:
         <br>
 
       cta:
-        label: View 2025 Results
-        url: '/survey/2025/sara_2025_technical_report.html'
+        label: Explore 2025 Survey
+        url: '/survey/2025/'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: View 2024 Results
-        url: '/survey/2024/sara_technical_report.html'
+        label: Explore 2024 Survey
+        url: '/survey/2024/'
     design:
       background:
         image:
@@ -46,6 +46,37 @@ sections:
         SARA generates 'evidence for action' to help public and private actors make informed decisions about safer AI development and use.
 
         This project is a collaboration between Ready Research and The University of Queensland.
+
+    design:
+      columns: '2'
+
+  - block: markdown
+    content:
+      title: Latest Findings
+      text: |-
+        **2025 Survey** (933 Australians):
+
+        - Australians expect AI to be as safe as commercial aviation—at least **4,000 times safer** than current risk estimates
+        - There is strong public demand for government to better manage AI risks
+        - Many proposed risk controls would increase public trust in AI
+
+        [Explore the full 2025 survey findings →](/survey/2025/)
+
+    design:
+      columns: '2'
+
+  - block: markdown
+    content:
+      title: What This Means for Australia
+      text: |-
+        These findings reveal a clear public mandate for stronger AI governance in Australia. Australians expect the same rigorous safety standards for AI that we apply to aviation and other critical technologies.
+
+        The research shows that:
+        - **Public expectations for AI safety are high**: Australians want AI systems to meet world-class safety standards
+        - **Government action is needed**: There is broad support for regulatory intervention to manage AI risks
+        - **Trust can be built**: Implementing appropriate safety controls would increase public confidence in AI technology
+
+        This evidence base can inform policy decisions, regulatory frameworks, and governance approaches for AI in Australia.
 
     design:
       columns: '2'

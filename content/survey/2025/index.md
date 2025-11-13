@@ -7,10 +7,12 @@ sections:
   - block: hero
     content:
       title: |-
-        2025 Australian Survey Assessing Risks from AI
+        2025 Australian Survey Assessing Risks from AI (SARA25)
       image:
-        filename: sara_hero2.webp
+        filename: 2025_paint.jpeg
       text: |-
+        Understanding Australian public views on AI risks and governance
+
         <br>
 
         We conducted a representative survey of 933 Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
@@ -18,13 +20,13 @@ sections:
         <br>
 
       cta:
-        label: 2025 Report
+        label: View Technical Report
         url: '/survey/2025/sara_2025_technical_report.html'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: 2024 Report
-        url: '/survey/2024/sara_technical_report.html'
+        label: Compare with 2024
+        url: '/survey/2024/'
     design:
       background:
         color: #0C869B
@@ -33,8 +35,7 @@ sections:
     content:
       title: Key Insights
       text: |-
-
-        Our representative online *Survey Assessing Risks from AI* (SARA) has investigated public perceptions of AI risks and support for AI governance actions across multiple years:
+        > **Comparing surveys:** View [2025 findings](/survey/2025/) | [2024 findings](/survey/2024/) | [Return to homepage](/)
 
         **2025 Survey** (933 Australians): Australians expect AI to be as safe as commercial aviation - at least **4,000x** safer than current risk estimates. They want the government to better manage AI risks, and many risk controls would increase their trust in AI.
 
@@ -44,19 +45,42 @@ sections:
 
   - block: markdown
     content:
-      title: Read the reports
+      title: What This Means for Australia
+      text: |-
+        These findings reveal critical expectations for AI governance in Australia:
+
+        **Safety standards matter**: Australians hold AI to the same rigorous safety standards as commercial aviation. This means they expect AI systems to cause fewer than 1 death per 100 million hours of operation—far stricter than current AI safety benchmarks.
+
+        **Public trust depends on action**: The research shows that implementing appropriate risk controls would directly increase trust in AI technology. This presents a clear pathway for both government and industry.
+
+        **Governance framework needed**: With strong public support for government action on AI risks, there is a mandate for developing comprehensive AI governance frameworks that address current harms and potential catastrophic risks.
+
+        These results provide an evidence base for policymakers, regulators, and industry leaders making decisions about Australia's AI future.
+
+    design:
+      columns: '2'
+
+  - block: markdown
+    content:
+      title: How to Read This Research
       text: |-
         ### 2025 Survey
-        - [2025 Technical Report](/survey/2025/sara_2025_technical_report.html) (interactive report)
-        - [2025 Technical Report](/survey/2025/sara_2025_technical_report_final.pdf) (PDF)
+
+        **Full findings with data visualizations:**
+        - [2025 Technical Report](/survey/2025/sara_2025_technical_report.html) (interactive report) - Complete findings, read online
+        - [2025 Technical Report](/survey/2025/sara_2025_technical_report_final.pdf) (PDF) - Complete report for download and offline reading
 
         **Suggested citation:** Noetel, M., Saeri, A.K., Graham, J., & Slattery, P. (2025). *Survey Assessing Risks from Artificial Intelligence: 2025 Technical Report*. Ready Research, The University of Queensland.
 
-        ### 2024 Survey
-        - [2024 Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF)
-        - [2024 Summary Briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google doc)
-        - [2024 Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (SSRN PDF)
-        - [2024 Technical Report](/survey/2024/sara_technical_report.html) (interactive report)
+        ### 2024 Survey (for comparison)
+
+        **Quick overview:**
+        - [2-Page Summary](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF) - Key findings for busy readers
+        - [2-Page Summary](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google Doc) - Editable version for sharing and commenting
+
+        **Complete analysis:**
+        - [2024 Technical Report](/survey/2024/sara_technical_report.html) (interactive report) - Full findings, read online
+        - [2024 Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (SSRN PDF) - Published academic version for citation
 
         **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
@@ -64,7 +88,7 @@ sections:
 
   - block: markdown
     content:
-      title: About the Survey
+      title: How We Conducted This Survey
       text: |-
 
         Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance.

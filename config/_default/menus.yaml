@@ -3,13 +3,16 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-# main:
-# - name: Projects
-#    url: #projects
-#    weight: 10
-#  - name: Contact
-#    url: #contact
-#    weight: 60
-#  - name: Register for the AI Safety Unconference
-#    url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
-#    weight: 90
+main:
+  - name: Home
+    url: '/'
+    weight: 10
+  - name: 2025 Survey
+    url: '/survey/2025/'
+    weight: 20
+  - name: 2024 Survey
+    url: '/survey/2024/'
+    weight: 30
+  - name: Contact
+    url: '/#contact'
+    weight: 40
