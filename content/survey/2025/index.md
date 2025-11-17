@@ -44,15 +44,11 @@ sections:
     content:
       title: What This Means for Australia
       text: |-
-        These findings reveal critical expectations for AI governance in Australia:
-
         **Safety standards matter**: Australians hold AI to the same rigorous safety standards as commercial aviation. This means they expect AI systems to cause fewer than 1 death per 100 million hours of operation—far stricter than current AI safety benchmarks.
 
         **Public trust depends on action**: The research shows that implementing appropriate risk controls would directly increase trust in AI technology. This presents a clear pathway for both government and industry.
 
         **Governance framework needed**: With strong public support for government action on AI risks, there is a mandate for developing comprehensive AI governance frameworks that address current harms and potential catastrophic risks.
-
-        These results provide an evidence base for policymakers, regulators, and industry leaders making decisions about Australia's AI future.
 
     design:
       columns: '2'
@@ -61,25 +57,11 @@ sections:
     content:
       title: How to Read This Research
       text: |-
-        ### 2025 Survey
-
-        **Full findings with data visualizations:**
         - [2025 Technical Report](/survey/2025/sara_2025_technical_report.html) (interactive report) - Complete findings, read online
         - [2025 Technical Report](/survey/2025/sara_2025_technical_report_final.pdf) (PDF) - Complete report for download and offline reading
 
         **Suggested citation:** Noetel, M., Saeri, A.K., Graham, J., & Slattery, P. (2025). *Survey Assessing Risks from Artificial Intelligence: 2025 Technical Report*. Ready Research, The University of Queensland.
 
-        ### 2024 Survey (for comparison)
-
-        **Quick overview:**
-        - [2-Page Summary](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false) (PDF) - Key findings for busy readers
-        - [2-Page Summary](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/edit) (Google Doc) - Editable version for sharing and commenting
-
-        **Complete analysis:**
-        - [2024 Technical Report](/survey/2024/sara_technical_report.html) (interactive report) - Full findings, read online
-        - [2024 Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (SSRN PDF) - Published academic version for citation
-
-        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
     design:
       columns: '2'
 
@@ -88,15 +70,7 @@ sections:
       title: How We Conducted This Survey
       text: |-
 
-        Understanding public beliefs and expectations about artificial intelligence (AI) risks and their possible responses is important for ensuring that the ethical, legal, and social implications of AI are addressed through effective governance.
-
-        The *Survey Assessing Risks from AI* (SARA) generates 'evidence for action', to help public and private actors make the decisions needed for safer AI development and use.
-
-        Our surveys investigate public concerns about diverse risks from AI, from AI being used to spread fake and harmful content online, to AI being used for the creation of biological and chemical weapons; public support for AI development and regulation; and priority governance actions to address risks from AI (with a focus on government action).
-
-        **2025 Survey:** We recruited 933 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory.
-
-        **2024 Survey:** We recruited 1,141 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
+        We recruited 1,141 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
 
         This project is a collaboration between Ready Research and The University of Queensland. The project team includes [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/), and [Dr Peter Slattery](https://www.linkedin.com/in/peterslattery1/).
 
