@@ -10,13 +10,9 @@ sections:
         Survey Assessing Risks from AI
       text: |-
         Understanding Australian public perceptions of AI risks and support for AI governance.
-
         <br>
-
         **SARA** surveys Australian adults about their concerns regarding AI risks, support for AI development and regulation, and priority governance actions to address these risks.
-
         <br>
-
       cta:
         label: Explore 2025 Survey
         url: '/survey/2025/'
