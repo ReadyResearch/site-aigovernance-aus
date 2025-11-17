@@ -9,7 +9,7 @@ sections:
       title: |-
         2025 Australian Survey Assessing Risks from AI (SARA25)
       image:
-        filename: hero2025.jpeg
+        filename: hero2025.png
       text: |-
         Understanding Australian public views on AI risks and governance
 

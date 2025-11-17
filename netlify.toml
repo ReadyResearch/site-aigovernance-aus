@@ -21,7 +21,13 @@
     debug = true
 
 [[redirects]]
+  from = "/survey/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/fundamentals-eoi"
   to = "https://docs.google.com/forms/d/1UyIi554ipN6cUrpK3YxBFxVptUnbr8l2GgYsrmDfXrk/viewform"
   status = 301
-  force = true 
+  force = true

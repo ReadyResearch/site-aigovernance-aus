@@ -10,7 +10,7 @@ sections:
       title: |-
         2024 Australian Survey Assessing Risks from AI (SARA24)
       image:
-        filename: hero2024.jpeg
+        filename: hero2024.png
       text: |-
         Understanding Australian public views on AI risks and governance
 
