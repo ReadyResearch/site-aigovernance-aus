@@ -7,14 +7,14 @@ sections:
   - block: hero
     content:
       title: |-
-        2025 Australian Survey Assessing Risks from AI (SARA25)
+        Survey Assessing Risks from AI 2025
       image:
         filename: hero2025.png
       text: |-
         Understanding Australian public views on AI risks and governance
-        <br>
+
         We conducted a representative survey of 933 Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
-        <br>
+        
       cta:
         label: View Technical Report
         url: '/survey/2025/sara_2025_technical_report.html'

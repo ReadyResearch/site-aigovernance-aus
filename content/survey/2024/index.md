@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |-
-        2024 Australian Survey Assessing Risks from AI (SARA24)
+        Survey Assessing Risks from AI 2024
       image:
         filename: hero2024.png
       text: |-
