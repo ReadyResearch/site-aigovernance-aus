@@ -12,16 +12,17 @@ sections:
         filename: hero2025.png
       text: |-
         Understanding Australian public views on AI risks and governance
-
+        
         We conducted a representative survey of 933 Australian adults to understand public perceptions of AI risks and support for AI governance actions in Australia.
         
+
       cta:
-        label: View Technical Report
+        label: View Report
         url: '/survey/2025/sara_2025_technical_report.html'
         icon_pack: fas
         icon: star
       cta_alt:
-        label: Compare with 2024
+        label: See 2024
         url: '/survey/2024/'
     design:
       background:
