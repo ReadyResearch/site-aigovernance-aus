@@ -57,6 +57,14 @@ sections:
 
         [Explore the full 2025 survey findings →](/survey/2025/)
 
+        **2024 Survey** (1,141 Australians):
+
+        - Australians judge that “preventing dangerous and catastrophic outcomes from AI” the #1 priority for the Australian Government in AI
+        - 9 in 10 Australians support creating a new regulatory body for AI.
+        - 8 in 10 support idea that “mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war”.
+
+        [Explore the full 2024 survey findings →](/survey/2024/)
+
     design:
       columns: '2'
 

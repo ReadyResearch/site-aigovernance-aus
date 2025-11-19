@@ -69,7 +69,7 @@ sections:
       title: How We Conducted This Survey
       text: |-
 
-        We recruited 1,141 Australians through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
+        We analysed data from 933 Australians recruited through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
 
         This project is a collaboration between Ready Research and The University of Queensland. The project team includes [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/), and [Dr Peter Slattery](https://www.linkedin.com/in/peterslattery1/).
 
