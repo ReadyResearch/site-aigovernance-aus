@@ -32,11 +32,10 @@ sections:
     content:
       title: Key Insights
       text: |-
-        > **Comparing surveys:** View [2025 findings](/survey/2025/) | [2024 findings](/survey/2024/) | [Return to homepage](/)
+        > **Comparing surveys:** View [2024 findings](/survey/2024/)
 
         **2025 Survey** (933 Australians): Australians expect AI to be as safe as commercial aviation - at least **4,000x** safer than current risk estimates. They want the government to better manage AI risks, and many risk controls would increase their trust in AI.
 
-        **2024 Survey** (1,141 Australians; [2-page briefing](https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false)): Australians are most concerned about AI risks where AI acts unsafely, is misused, or displaces jobs. They judge **"preventing dangerous and catastrophic outcomes from AI"** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
     design:
       columns: '2'
 
@@ -60,7 +59,7 @@ sections:
         - [2025 Technical Report](/survey/2025/sara_2025_technical_report.html) (interactive report) - Complete findings, read online
         - [2025 Technical Report](/survey/2025/sara_2025_technical_report_final.pdf) (PDF) - Complete report for download and offline reading
 
-        **Suggested citation:** Noetel, M., Saeri, A.K., Graham, J., & Slattery, P. (2025). *Survey Assessing Risks from Artificial Intelligence: 2025 Technical Report*. Ready Research, The University of Queensland.
+        **Suggested citation:** Noetel, M., Saeri, A.K., Graham, J., & Slattery, P. (2025). *Survey Assessing Risks from Artificial Intelligence: 2025 Technical Report*. aigovernance.org.au
 
     design:
       columns: '2'

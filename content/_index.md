@@ -34,7 +34,6 @@ sections:
       title: About SARA
       text: |-
         The **Survey Assessing Risks from AI (SARA)** is an annual representative survey of Australian adults investigating:
-
         - Public perceptions of AI risks (from current harms to potential catastrophic risks)
         - Support for AI development and regulation
         - Priority governance actions to address AI risks

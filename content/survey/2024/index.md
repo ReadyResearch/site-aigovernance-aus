@@ -16,6 +16,7 @@ sections:
         
         We conducted a representative survey of Australian adults to understand public perceptions of AI risks and governance actions.
         
+
       cta:
         label: 2-Page Brief
         url: 'https://docs.google.com/document/d/1d0CRlBRLv3_a1fSye6cA6dzMjxtopjCcklc8irGPlDc/export?format=pdf&attachment=false'
@@ -31,7 +32,7 @@ sections:
     content:
       title: Key Insights
       text: |-
-        > **Comparing surveys:** View [2025 findings](/survey/2025/) | [2024 findings](/survey/2024/) | [Return to homepage](/)
+        > **Comparing surveys:** View [2025 findings](/survey/2025/)
 
         **2024 Survey** (1,141 Australians): Australians are most concerned about AI risks where AI acts unsafely, is misused, or displaces jobs. They judge **"preventing dangerous and catastrophic outcomes from AI"** the **#1 priority for the Australian Government in AI**; 9 in 10 Australians support creating a new regulatory body for AI.
 
@@ -61,7 +62,7 @@ sections:
         - [2024 Technical Report](/survey/2024/sara_technical_report.html) (interactive report) - Full findings with data visualizations, read online
         - [2024 Technical Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4750953) (SSRN PDF) - Published academic version for citation
 
-        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. Ready Research, The University of Queensland.
+        **Suggested citation:** Saeri, A.K., Noetel, M., & Graham, J. (2024). *Survey Assessing Risks from Artificial Intelligence: Technical Report*. SSRN. http://dx.doi.org/10.2139/ssrn.4750953
     design:
       columns: '2'
 
