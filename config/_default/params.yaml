@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Ready Research & The University of Queensland. Principal Investigator: [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/). Hero photo by [Dominic Kurniawan Suryaputra](https://unsplash.com/@d_ks11?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-large-group-of-people-sitting-in-front-of-a-building-8bA_OXkFq2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). This work is licensed under {license}'
+    notice: '© {year} Ready Research & The University of Queensland. Principal Investigators: [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/) and [Dr Michael Noetel](https://noetel.com.au). Hero photo by [Dominic Kurniawan Suryaputra](https://unsplash.com/@d_ks11?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-large-group-of-people-sitting-in-front-of-a-building-8bA_OXkFq2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: true
