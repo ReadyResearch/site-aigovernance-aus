@@ -72,9 +72,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
-services:
-  googleAnalytics:
-    ID: ''
 
 params:
   topic: "safety"
