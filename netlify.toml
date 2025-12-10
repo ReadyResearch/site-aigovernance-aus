@@ -21,6 +21,18 @@
     debug = true
 
 [[redirects]]
+  from = "/survey/sara_technical_report"
+  to = "/survey/2024/sara_technical_report.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/survey/sara_technical_report/"
+  to = "/survey/2024/sara_technical_report.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/survey/"
   to = "/"
   status = 301
