@@ -34,7 +34,7 @@ sections:
       text: |-
         > **Comparing surveys:** View [2024 findings](/survey/2024/)
 
-        **2025 Survey** (933 Australians): Australians expect AI to be as safe as commercial aviation - at least **4,000x** safer than current risk estimates. They want the government to better manage AI risks, and many risk controls would increase their trust in AI.
+        **2025 Survey** (933 Australians): **94% expect AI to be held to safety standards at least as strict as commercial aviation** — a far higher bar than current expert risk forecasts imply. Australians want the government to better manage AI risks, and report that many risk controls would increase their trust in AI.
 
     design:
       columns: '2'
@@ -43,7 +43,7 @@ sections:
     content:
       title: What This Means for Australia
       text: |-
-        **Safety standards matter**: Australians hold AI to the same rigorous safety standards as commercial aviation. This means they expect AI systems to cause fewer than 1 death per 100 million hours of operation—far stricter than current AI safety benchmarks.
+        **Safety standards matter**: Australians want AI held to safety standards at least as strict as commercial aviation — one of the most tightly regulated, safety-critical industries. Independent expert forecasts currently place AI risk well above that bar, pointing to a substantial gap between public expectations and where experts judge the technology to be today.
 
         **Public trust depends on action**: The research shows that implementing appropriate risk controls would directly increase trust in AI technology. This presents a clear pathway for both government and industry.
 

@@ -1,0 +1,223 @@
+================================================================================
+SARA 2025 RAW DATA PLOTS - COMPLETE INDEX
+================================================================================
+
+Total: 45 plots showing raw response distributions including "Not sure"
+Location: /2025/plots/raw_data_plots/
+Generated: November 2025
+Script: 2025/02_analysis/9_all_items_raw_plots.R
+
+================================================================================
+SECTION 1: ORDINAL VARIABLES (11 plots)
+================================================================================
+Stacked horizontal bars showing % distribution across Likert scales
+
+✓ ai_good_harm_raw.png
+  "Overall, do you think AI will do more good than harm?"
+  3 levels: More harm | Neither | More good
+
+✓ ai_vs_airline_raw.png
+  "Compared to airlines, AI safety standards should be..."
+  5 levels: Much less strict → Much stricter
+
+✓ extinction_priority_raw.png ⭐ KEY PLOT - Was missing from original analysis
+  "Mitigating AI extinction risk should be a global priority"
+  5 levels: Strongly disagree → Strongly agree
+
+✓ media_ai_regulation_raw.png
+  "Want more media coverage of how government is regulating AI"
+  4 levels: Strongly disagree → Strongly agree
+
+✓ media_ai_society_raw.png
+  "Want more media coverage of how AI affects society"
+  4 levels: Strongly disagree → Strongly agree
+
+✓ regulation_pace_raw.png
+  "Is regulation developing faster or slower than AI?"
+  3 levels: Slower | Same pace | Faster
+
+✓ treaty_ban_agi_raw.png
+  "Support/oppose international treaty to ban AGI"
+  4 levels: Strongly oppose → Strongly support
+
+✓ trust_tech_companies_raw.png
+  "Trust tech companies to ensure AI is safe"
+  4 levels: Not at all → A great deal
+
+✓ willingness_to_pay_raw.png
+  "Maximum annual payment to reduce AI catastrophic risk"
+  7 levels: $0 → $5000+
+
+✓ worried_job_loss_raw.png
+  "How worried about AI leading to job loss?"
+  4 levels: Not at all → Very worried
+
+✓ worried_lose_control_raw.png
+  "How worried humans will lose control of AI?"
+  4 levels: Not at all → Very worried
+
+================================================================================
+SECTION 2: TRUST MITIGATIONS (14 plots)
+================================================================================
+"I would be more likely to trust AI if..."
+All: 5 levels (Strongly disagree → Strongly agree)
+
+✓ trust_ai_regulator_raw.png
+  "Australian AI regulator sets and enforces laws"
+
+✓ trust_annual_audits_raw.png
+  "Large AI developers undergo annual safety audits"
+
+✓ trust_developer_liability_raw.png
+  "Developers liable for catastrophic harms"
+
+✓ trust_emergency_shutdown_raw.png
+  "AI models have emergency shutdown capabilities"
+
+✓ trust_human_review_raw.png
+  "Right to challenge AI decisions and have human review"
+
+✓ trust_incident_reporting_raw.png
+  "Developers report safety incidents within 72 hours"
+
+✓ trust_inform_ai_use_raw.png
+  "Organizations inform people when AI is being used"
+
+✓ trust_liability_rules_raw.png
+  "Rules prevent developers removing liability for harms"
+
+✓ trust_risk_assessments_raw.png
+  "Organizations conduct risk assessments before deployment"
+
+✓ trust_safety_institute_raw.png
+  "Australian AI Safety Institute works with industry"
+
+✓ trust_safety_protocols_raw.png
+  "Developers publish safety protocols before building"
+
+✓ trust_safety_testing_raw.png
+  "Companies submit powerful AI for safety testing"
+
+✓ trust_watermarking_raw.png
+  "AI-generated content must be labeled/watermarked"
+
+✓ trust_whistleblower_raw.png
+  "Employees protected from retaliation for reporting concerns"
+
+================================================================================
+SECTION 3: PRIORITY RISKS (15 plots)
+================================================================================
+"Government should focus on..."
+All: 5 levels (Strongly disagree → Strongly agree)
+
+✓ priority_bias_raw.png
+  "Stopping AI from being unfair or discriminating"
+
+✓ priority_copyright_raw.png
+  "Dealing with AI using others' work without permission"
+
+✓ priority_cyber_attacks_raw.png
+  "Stopping hackers using AI to attack computers"
+
+✓ priority_economy_raw.png
+  "Helping economy adapt to AI change"
+
+✓ priority_environment_raw.png
+  "Reducing environmental damage from AI energy use"
+
+✓ priority_expert_risk_raw.png
+  "Letting experts focus on biggest risks"
+
+✓ priority_fake_individuals_raw.png
+  "Stopping deepfakes that hurt people"
+
+✓ priority_fake_manipulation_raw.png
+  "Stopping fake content used to trick the public"
+
+✓ priority_inequality_raw.png
+  "Ensuring all countries have fair access to AI"
+
+✓ priority_jobs_raw.png
+  "Dealing with how AI affects employment"
+
+✓ priority_loss_control_raw.png
+  "Preventing AI getting out of human control"
+
+✓ priority_market_raw.png
+  "Preventing few big companies controlling all AI"
+
+✓ priority_privacy_raw.png
+  "Protecting privacy from AI collecting personal data"
+
+✓ priority_reliability_raw.png
+  "Making sure AI systems work properly"
+
+✓ priority_weapons_raw.png
+  "Stopping AI making it easier to create weapons"
+
+================================================================================
+SECTION 4: CATEGORICAL VARIABLES (2 plots)
+================================================================================
+Grouped bar charts showing distribution
+
+✓ gov_priority_raw.png
+  "Government should prioritise: Managing risks vs Driving innovation"
+  2 categories
+
+✓ regulation_concern_raw.png
+  "Concerned government will: Go too far vs Not go far enough"
+  2 categories
+
+================================================================================
+SECTION 5: RANDOMIZED EXPERIMENTAL (3 plots)
+================================================================================
+Raincloud plots (half-violin + boxplot + jittered points)
+
+✓ casualty_risk_tolerance_raw.png
+  "Maximum acceptable risk of AI causing X casualties/year"
+  X randomized: 10, 100, 1K, 10K, 100K, 1M, 1B, 8B
+  Y-axis: 7 risk levels (Zero risk → ≥1% pandemic risk)
+
+✓ risk_benefit_tradeoff_raw.png
+  "X% chance of catastrophe vs 60% chance of climate solution + 20yr lifespan"
+  X randomized: 0.01%, 0.1%, 1%, 10%
+  Y-axis: 4 levels (Completely unacceptable → Clearly acceptable)
+
+✓ temporal_tradeoff_raw.png
+  "Worth delaying AI by X years to reduce risk 5% → 0.5%?"
+  X randomized: 1, 3, 5, 10, 20 years
+  Y-axis: 5 levels (Clearly not worthwhile → Clearly worthwhile)
+
+================================================================================
+TECHNICAL SPECIFICATIONS
+================================================================================
+
+Resolution: 300 DPI
+Format: PNG (8-bit RGB)
+Dimensions:
+  - Stacked/grouped bars: 4200 × 1800 pixels (14" × 6")
+  - Rainclouds: 4200 × 2400 pixels (12-14" × 8")
+
+Color Scheme (SARA Branding):
+  - Primary: #053C45 (dark teal)
+  - Secondary: #0C869B (light teal)
+  - Not sure: #b0b0b0 (grey)
+  - Panel: grey90
+  - Grid: lightgrey
+
+Data Source:
+  - File: 2025/01_cleaning/sara2025_clean.rds
+  - n = 932 (passed both attention checks)
+  - Fieldwork: August 14-30, 2025
+
+================================================================================
+REGENERATE ALL PLOTS
+================================================================================
+
+To regenerate all 45 plots in one command:
+
+  source("2025/02_analysis/9_all_items_raw_plots.R")
+
+Execution time: ~30 seconds
+
+================================================================================
