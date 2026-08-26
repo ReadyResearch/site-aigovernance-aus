@@ -29,8 +29,6 @@ social:
     icon_pack: ai
     link: https://docs.google.com/document/d/1h9amaSB6MOZ1lSANBEhf1SOaMfQg4Y2_12wK3l-CrT4/edit
 organizations:
-  - name: Ready Research
-    url: https://www.readyresearch.org
   - name: BehaviourWorks Australia, Monash University
     url: https://www.behaviourworksaustralia.org/
 education:
