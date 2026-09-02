@@ -71,7 +71,7 @@ sections:
 
         We analysed data from 933 Australians, recruited through online representative quota sampling stratified by age, sex, and Australian state / territory. We also conducted multilevel regression with poststratification to construct more accurate population estimates based on 2021 Australian Census data.
 
-        This project is a collaboration between Ready Research and The University of Queensland. The project team includes [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/), and [Dr Peter Slattery](https://www.linkedin.com/in/peterslattery1/).
+        The project team includes [Dr Alexander Saeri](https://www.linkedin.com/in/aksaeri/), [Dr Michael Noetel](https://www.linkedin.com/in/mnoetel/), [Jessica Graham](https://www.linkedin.com/in/jessica-jane-graham/), and [Dr Peter Slattery](https://www.linkedin.com/in/peterslattery1/).
 
     design:
       columns: '2'
@@ -83,10 +83,6 @@ sections:
       subtitle: ''
       text: |-
         Contact [Dr Alexander Saeri](mailto:a.saeri@uq.edu.au) to discuss the research project.
-
-        <br>
-        <br>
-        <img src='/readyuqlogo.png' alt='Ready Research & The University of Queensland logo' style='display: block; margin-right: auto; margin-left: auto;width: 60%' />
       autolink: true
       design:
         columns: '2'

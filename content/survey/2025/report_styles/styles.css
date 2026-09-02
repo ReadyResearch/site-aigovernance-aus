@@ -1,5 +1,5 @@
 .quarto-title-block .quarto-title-banner {
-    background-image: url(readyuqlogotrans.png), url(banner.png);
+    background-image: url(banner.png);
     background-size: 250px, cover; 
     background-position: right, center; 
     background-repeat: no-repeat, no-repeat; 
